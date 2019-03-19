@@ -16,7 +16,7 @@ public class ApiTauhid implements Book{
 	}
 	
 	@Autowired
-	public ApiTauhid(@Value("${book2.Id}")int id,
+	public ApiTauhid(@Value("${book2.id}")int id,
 					 @Value("${book2.name}")String name,
 					 @Value("${book2.author}") String author,
 					 @Value("${book2.year}") int year

@@ -18,7 +18,7 @@ public class DiscreteMathematic implements Book {
 	}
 	
 	@Autowired
-	public DiscreteMathematic(@Value("${book1.Id}")int id,
+	public DiscreteMathematic(@Value("${book1.id}")int id,
 					 @Value("${book1.name}")String name,
 					 @Value("${book1.author}") String author,
 					 @Value("${book1.year}") int year
