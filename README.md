@@ -1,5 +1,5 @@
 # Spring IOC & DI - PBKK
-Tugas 3 PBKK
+Tugas PBKK
 Buatlah 3 buah project berbasis Spring untuk menerapkan konsep konfigurasi Spring berbasis:
 1. XML
 2. Annotation
