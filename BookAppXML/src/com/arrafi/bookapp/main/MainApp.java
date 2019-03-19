@@ -2,7 +2,7 @@ package com.arrafi.bookapp.main;
 
 import java.util.Scanner;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.arrafi.bookapp.book.*;
@@ -24,12 +24,12 @@ public class MainApp {
 		
 		
 		if(choice==1) {
-			Book book = context.getBean("DiscreteMathematic", Book.class);
+			Book book = context.getBean("book1", Book.class);
 			DiscreteMathematic book1 = (DiscreteMathematic) book;
 			System.out.println(book1.toString());
 		}
 		else if(choice==2) {
-			Book book = context.getBean("ApiTauhid", Book.class);
+			Book book = context.getBean("book2", Book.class);
 			ApiTauhid book2 = (ApiTauhid) book;
 			System.out.println(book2.toString());
 		}
